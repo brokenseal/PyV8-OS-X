@@ -17,6 +17,7 @@ setup(
     license = "",
     url = "https://github.com/brokenseal/PyV8-OS-X",
     packages=find_packages(),
+    zip_safe = False,
     #install_requires= [], # I wish I could use pip better
     classifiers = [
         "Development Status :: 0.8",

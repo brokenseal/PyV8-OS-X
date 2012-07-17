@@ -32,5 +32,5 @@ If you download the "zipball" from GitHub, you can install it using pip, i.e.:
 pip install *-PyV8-OS-X-*.zip
 ```
 
-You can then ``import PyV8`` in python and proceed with the examples shown on
-the pyv8 website.
+You can then ``from pyv8 import PyV8`` in python and proceed with the examples
+shown on the pyv8 website.
