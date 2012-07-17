@@ -13,7 +13,7 @@ setup(
     author = "Callegari Davide",
     author_email = "admin@brokenseal.it",
     description = "Taken from http://www.dcl.hpi.uni-potsdam.de/home/loewis/pyv8/",
-    long_description = open("README").read(),
+    long_description = open("README.md").read(),
     license = "",
     url = "https://github.com/brokenseal/PyV8-OS-X",
     packages=find_packages(),
