@@ -26,11 +26,14 @@ Dr. Loewis used the following software to build it:
 Installation
 ------------
 
-If you download the "zipball" from GitHub, you can install it using pip, i.e.:
+A convenient way to install is using pip. You can install within a
+[virtualenv](http://pypi.python.org/pypi/virtualenv/), if you'd like.
 
+To install with pip directly from this git repo, use the command:
 ```
-pip install *-PyV8-OS-X-*.zip
+pip install git+git://github.com/path/to/this/git/repo.git
 ```
+(see the "Git Read-Only" URL above for the path).
 
 You can then ``from pyv8 import PyV8`` in python and proceed with the examples
 shown on the pyv8 website.
