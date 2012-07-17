@@ -18,6 +18,9 @@ setup(
     url = "https://github.com/brokenseal/PyV8-OS-X",
     packages=find_packages(),
     zip_safe = False,
+    package_data = {
+        'pyv8': ('*.so', ),     # include .so files when installed with pip/git
+    },
     #install_requires= [], # I wish I could use pip better
     classifiers = [
         "Development Status :: 0.8",
