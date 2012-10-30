@@ -1,5 +1,6 @@
 PyV8-OS-X
 =========
+[![endorse](http://api.coderwall.com/brokenseal/endorsecount.png)](http://coderwall.com/brokenseal)
 
 This is a binary distribution of [pyv8](http://code.google.com/p/pyv8/),
 for use with Python >= 2.6.1 and OS X >= 10.6.4, packaged up for easy
